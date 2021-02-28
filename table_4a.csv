@@ -1,0 +1,146 @@
+Category,Category_Name,SubCategory,Description,efficiency_A,efficiency_B,efficiency,heating_type,responsiveness,code,RdSAP
+1,no heating system present,,electric heaters,,,100,1,1,699,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Manual feed independent boiler in heated space a),65,60,,2,0.75,151,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Manual feed independent boiler in unheated space a),60,55,,2,0.75,152,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Auto (gravity) feed independent boiler in heated space a),70,65,,2,0.75,153,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Auto (gravity) feed independent boiler in unheated space a) ,65,60,,2,0.75,154,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Wood chip/pellet independent boiler,65,63,,2,0.75,155,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Open fire with back boiler to radiators,63,55,,3,0.5,156,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Closed roomheater with boiler to radiators,67,65,,3,0.5,158,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Stove (pellet-fired) with boiler to radiators,65,63,,2,0.75,159,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Range cooker boiler (integral oven and boiler),50,45,,3,0.5,160,'rd’
+2,boiler systems with rads or underfloor heating,solid fuel boilers,Range cooker boiler (independent oven and boiler),60,55,,3,0.5,161,
+2,boiler systems with rads or underfloor heating,Electric boilers,Direct acting electric boiler,,,100,table_4d,table_4d,191,'rd’
+2,boiler systems with rads or underfloor heating,Electric boilers,Electric CPSU in heated space a) radiators or underfloor,,,100,1,1,192,'rd’
+2,boiler systems with rads or underfloor heating,Electric boilers,Electric dry core storage boiler in unheated space a) b),,,100,2,0.75,193,'rd’
+2,boiler systems with rads or underfloor heating,Electric boilers, Electric dry core storage boiler in heated space a) b),,,85,2,0.75,194,
+2,boiler systems with rads or underfloor heating,Electric boilers,Electric water storage boiler in heated space a) b),,,100,2,0.75,195,'rd’
+2,boiler systems with rads or underfloor heating,Electric boilers,Electric water storage boiler in unheated space a) b),,,85,2,0.75,196,
+3,MICRO-COGENERATION (MICRO-CHP),,,,,,,,,
+4,heat pumps with rads or underfloor heating,electric heat pumps,Ground source heat pump with flow temperature <= 35°C * ,230,170,,table_4d,table_4d,211,'rd’
+4,heat pumps with rads or underfloor heating,electric heat pumps,Water source heat pump with flow temperature <= 35°C * ,230,170,,table_4d,table_4d,213,'rd’
+4,heat pumps with rads or underfloor heating,electric heat pumps,Air source heat pump with flow temperature <= 35°C * ,170,170,,table_4d,table_4d,214,'rd’
+4,heat pumps with rads or underfloor heating,electric heat pumps,Ground source heat pump in other cases,170,170,,table_4d,table_4d,221,'rd’
+4,heat pumps with rads or underfloor heating,electric heat pumps,"Water source heat pump, in other cases",170,170,,table_4d,table_4d,223,'rd’
+4,heat pumps with rads or underfloor heating,electric heat pumps,Air source heat pump in other cases,170,170,,table_4d,table_4d,224,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Ground source heat pump with flow temperature <= 35°C * ,120,84,,table_4d,table_4d,215,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Water source heat pump with flow temperature <= 35°C * ,120,84,,table_4d,table_4d,216,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Air source heat pump with flow temperature <= 35°C * ,110,77,,table_4d,table_4d,217,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Ground source heat pump in other cases,84,84,,table_4d,table_4d,225,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Water source heat pump in other cases,84,84,,table_4d,table_4d,226,'rd’
+4,heat pumps with rads or underfloor heating,Gas-fired heat pumps,Air source heat pump in other cases,77,77,,table_4d,table_4d,227,'rd’
+5,heat pumps with warm air distribution,electric heat pumps,Ground source heat pump ,230,170,,1,1,521,'rd’
+5,heat pumps with warm air distribution,electric heat pumps,Water source heat pump ,230,170,,1,1,523,'rd’
+5,heat pumps with warm air distribution,electric heat pumps,Air source heat pump,170,170,,1,1,524,'rd’
+5,heat pumps with warm air distribution,Gas-fired heat pumps,Ground source heat pump ,120,84,,1,1,525,
+5,heat pumps with warm air distribution,Gas-fired heat pumps,Water source heat pump ,120,84,,1,1,526,
+5,heat pumps with warm air distribution,Gas-fired heat pumps,Air source heat pump,110,77,,1,1,527,
+6,community heating schemes,,Community boilers (SAP),,,80,1,1,2,
+6,community heating schemes,,Community CHP (SAP),,,75,1,1,1,
+6,community heating schemes,,Community waste heat from power station (SAP) ,,,100,1,1,4,
+6,community heating schemes,,Community heat pump (SAP),,,300,1,1,3,
+6,community heating schemes,,Community geothermal heat source (SAP) use manufacturer s value where available,,,100,1,1,5,
+6,community heating schemes,, Community boilers only (RdSAP) ,,,80,1,1,301,'rd’
+6,community heating schemes,,Community CHP and boilers (RdSAP) ,,,75,1,1,302,'rd’
+6,community heating schemes,,Community heat pump (RdSAP),,,300,1,1,304,'rd’
+6,community heating schemes,,Community heat network,,,,1,1,310,'rd’
+7,electric storage systems ,Off-peak tariffs,Old (large volume) storage heaters,,,100,6,0,401,'rd’
+7,electric storage systems ,Off-peak tariffs,Slimline storage heaters,,,100,5,0.2,402,'rd’
+7,electric storage systems ,Off-peak tariffs,Convector storage heaters,,,100,5,0.2,403,
+7,electric storage systems ,Off-peak tariffs,Fan storage heaters,,,100,4,0.4,404,'rd’
+7,electric storage systems ,Off-peak tariffs,Slimline storage heaters with Celect-type control,,,100,4,0.4,405,
+7,electric storage systems ,Off-peak tariffs,Convector storage heaters with Celect-type control ,,,100,4,0.4,406,
+7,electric storage systems ,Off-peak tariffs,Fan storage heaters with Celect-type control,,,100,3,0.6,407,
+7,electric storage systems ,Off-peak tariffs,Integrated storage+direct-acting heater,,,100,3,0.6,408,'rd’
+7,electric storage systems ,Off-peak tariffs,High heat retention storage heaters §,,,100,2,0.8,409,'rd’
+7,electric storage systems ,24-hour heating tariff,Slimline storage heaters,,,100,4,0.4,402,'rd’
+7,electric storage systems ,24-hour heating tariff,Convector storage heaters,,,100,4,0.4,403,
+7,electric storage systems ,24-hour heating tariff,Fan storage heaters,,,100,4,0.4,404,'rd’
+7,electric storage systems ,24-hour heating tariff,Slimline storage heaters with Celect-type control,,,100,3,0.6,405,
+7,electric storage systems ,24-hour heating tariff,Convector storage heaters with Celect-type control ,,,100,3,0.6,406,
+7,electric storage systems ,24-hour heating tariff,Fan storage heaters with Celect-type control,,,100,3,0.6,407,
+7,electric storage systems ,24-hour heating tariff,High heat retention storage heaters §,,,100,2,0.8,409,'rd’
+8,electric underfloor heating,Off-peak tariffs,"In concrete slab (off-peak only)
+",,,100,5,0,421,'rd’
+8,electric underfloor heating,Off-peak tariffs,Integrated (storage+direct-acting),,,100,4,0.25,422,'rd’
+8,electric underfloor heating,Off-peak tariffs,Integrated (storage+direct-acting) with low (off-peak) tariff control,,,100,3,0.5,423,
+8,electric underfloor heating,Standard or off-peak tariff,In screed above insulation,,,100,2,0.75,424,'rd’
+8,electric underfloor heating,Standard or off-peak tariff,"In timber floor, or immediately below floor covering",,,100,1,1,425,
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,"Ducted, on-off control, pre 1998",,,70,1,1,501,
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,"Ducted, on-off control, 1998 or later ",,,76,1,1,502,'rd’
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,"Ducted, modulating control, pre 1998 ",,,72,1,1,503,
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,"Ducted, modulating control, 1998 or later ",,,78,1,1,504,
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,Roomheater with in-floor ducts ,,,69,1,1,505,
+9,warm air systems (not heat pump),Gas-fired warm air with fan-assisted flue,Condensing,,,81,1,1,520,
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,"Ducted or stub-ducted, on-off control, pre 1998",,,70,1,1,506,'rd’
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,"Ducted or stub-ducted, on-off control, 1998 or later ",,,76,1,1,507,
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,"Ducted or stub-ducted, modulating control, pre 1998 ",,,72,1,1,508,
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,"Ducted or stub-ducted, modulating control, 1998 or later ",,,78,1,1,509,
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,Ducted or stub-ducted with flue heat recovery ,,,85,1,1,510,'rd’
+9,warm air systems (not heat pump),Gas-fired warm air with balanced or open flue,Condensing,,,81,1,1,511,'rd’
+9,warm air systems (not heat pump),oil fired warm air,Ducted output (on/off control) ,,,70,1,1,512,'rd’
+9,warm air systems (not heat pump),oil fired warm air,Ducted output (modulating control),,,72,1,1,513,
+9,warm air systems (not heat pump),oil fired warm air,Stub duct system,,,70,1,1,514,
+9,warm air systems (not heat pump),electric warm air,Electricaire system,,,100,2,0.75,515,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire, open flue, pre-1980 (open fronted) OF",50,50,,1,1,601,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire, open flue, pre-1980 (open fronted), with back boiler unit OF*",50,50,,1,1,602,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire, open flue, 1980 or later (open fronted), sitting proud of, and sealed to, fireplace opening OF",63,64,,1,1,603,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire, open flue, 1980 or later (open fronted), sitting proud of, and sealed to, fireplace opening, with back boiler unit OF*",63,64,,1,1,604,'rd’
+10,room heaters,gas (including lpg) room heaters,"Flush fitting Live Fuel Effect gas fire (open fronted), sealed to fireplace opening OF",40,41,,1,1,605,'rd’
+10,room heaters,gas (including lpg) room heaters,"Flush fitting Live Fuel Effect gas fire (open fronted), sealed to fireplace opening, with back boiler unit OF*",40,41,,1,1,606,'rd’
+10,room heaters,gas (including lpg) room heaters,"Flush fitting Live Fuel Effect gas fire (open fronted), fan assisted, sealed to fireplace opening OF",45,46,,1,1,607,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire or wall heater, balanced flue RS",58,60,,1,1,609,'rd’
+10,room heaters,gas (including lpg) room heaters,"Gas fire, closed fronted, fan assisted RS",72,73,,1,1,610,'rd’
+10,room heaters,gas (including lpg) room heaters,Condensing gas fire RS,85,85,,1,1,611,'rd’
+10,room heaters,gas (including lpg) room heaters,"Decorative Fuel Effect gas fire, open to chimney C",20,20,,1,1,612,'rd’
+10,room heaters,gas (including lpg) room heaters,"Flueless gas fire, secondary heating only",90,92,,1,1,613,'rd’
+10,room heaters,oil room heaters,"Room heater, pre 2000 OF",,,55,1,1,621,'rd’
+10,room heaters,oil room heaters,"Room heater, pre 2000, with boiler (no radiators) OF",,,65,1,1,622,'rd’
+10,room heaters,oil room heaters,"Room heater, 2000 or later OF",,,60,1,1,623,'rd’
+10,room heaters,oil room heaters,"Room heater, 2000 or later with boiler (no radiators) OF",,,70,1,1,624,'rd’
+10,room heaters,oil room heaters,"Bioethanol heater, secondary heating only",,,94,1,1,625,'rd’
+10,room heaters,solid fuel room heaters,Open fire in grate C,37,32,,3,0.5,631,'rd’
+10,room heaters,solid fuel room heaters,Open fire with back boiler (no radiators) C,50,50,,3,0.5,632,'rd’
+10,room heaters,solid fuel room heaters,Closed room heater OF*,65,60,,3,0.5,633,'rd’
+10,room heaters,solid fuel room heaters,Closed room heater with boiler (no radiators) OF*,67,65,,3,0.5,634,'rd’
+10,room heaters,solid fuel room heaters,Stove (pellet fired) OF*,65,63,,2,0.75,635,'rd’
+10,room heaters,solid fuel room heaters,Stove (pellet fired) with boiler (no radiators) OF*,65,63,,2,0.75,636,'rd’
+10,room heaters,electric (direct acting) room heaters,"Panel, convector or radiant heaters",,,100,1,1,691,'rd’
+10,room heaters,electric (direct acting) room heaters,Water- or oil-filled radiators,,,100,1,1,694,'rd’
+10,room heaters,electric (direct acting) room heaters,Fan heaters,,,100,1,1,692,
+10,room heaters,electric (direct acting) room heaters,Portable electric heaters,,,100,1,1,693,'rd’
+11,other space heating systems,,electric ceiling heating,,,100,2,0.75,701,'rd’
+,hot water systems,No hot water system present - electric immersion assumed,,,,100,,,999,'rd’
+,hot water systems,From main heating system,"Back boiler (hot water only), gas*",,,65,,,901,'rd’
+,hot water systems,From main heating system,"Circulator built into a gas warm air system, pre 1998",,,65,,,901,'rd’
+,hot water systems,From main heating system,"Circulator built into a gas warm air system, 1998 or later",,,73,,,901,'rd’
+,hot water systems,From main heating system,"Heat exchanger in a gas warm air system, condensing unit",,,74,,,901,'rd’
+,hot water systems,From second main system,"Back boiler (hot water only), gas*",,,65,,,914,'rd’
+,hot water systems,From second main system,"Circulator built into a gas warm air system, pre 1998",,,65,,,914,'rd’
+,hot water systems,From second main system,"Circulator built into a gas warm air system, 1998 or later",,,73,,,914,'rd’
+,hot water systems,From second main system,"Heat exchanger in a gas warm air system, condensing unit",,,74,,,914,'rd’
+,hot water systems,From secondary system,"Back boiler (hot water only), gas*",,,65,,,902,'rd’
+,hot water systems,Electric immersion,,,,100,,,903,'rd’
+,hot water systems,Single-point gas water heater (instantaneous at point of use) ,,,,70,,,907,'rd’
+,hot water systems,Multi-point gas water heater (instantaneous serving several taps),,,,65,,,908,'rd’
+,hot water systems,Electric instantaneous at point of use,,,,100,,,909,'rd’
+,hot water systems,Gas boiler/circulator for water heating only*,,,,65,,,911,'rd’
+,hot water systems,Oil boiler/circulator for water heating only*,,,,70,,,912,'rd’
+,hot water systems,Solid fuel boiler/circulator for water heating only,,,,55,,,913,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, single burner with permanent pilot",,,46,,,921,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, single burner with automatic ignition",,,50,,,922,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, twin burner with permanent pilot pre 1998",,,60,,,923,
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, twin burner with automatic ignition pre 1998 ",,,65,,,924,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, twin burner with permanent pilot 1998 or later ",,,65,,,925,
+,hot water systems,Range cooker with boiler for water heating only:*,"Gas, twin burner with automatic ignition 1998 or later ",,,70,,,926,
+,hot water systems,Range cooker with boiler for water heating only:*,"Oil, single burner",,,60,,,927,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Oil, twin burner pre 1998",,,70,,,928,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Oil, twin burner 1998 or later",,,75,,,929,
+,hot water systems,Range cooker with boiler for water heating only:*,"Solid fuel, integral oven and boiler",,,45,,,930,'rd’
+,hot water systems,Range cooker with boiler for water heating only:*,"Solid fuel, independent oven and boiler",,,55,,,931,'rd’
+,hot water systems,Electric heat pump for water heating only* ,,,,170,,,941,'rd’
+,hot water systems,Hot-water only community scheme (SAP),,,,community heating schemes,,,950,
+,hot water systems,Hot-water only community scheme (RdSAP) - boilers ,,,,80,,,950,'rd’
+,hot water systems,Hot-water only community scheme (RdSAP) - CHP ,,,,75,,,951,'rd’
+,hot water systems,Hot-water only community scheme (RdSAP) - heat pump ,,,,300,,,952,'rd’
+,hot water systems,Hot-water only community scheme (RdSAP) - heat network,,,,,,,953,'rd’

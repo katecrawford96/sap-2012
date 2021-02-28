@@ -1,0 +1,42 @@
+boiler,Description,efficiency_winter,efficiency_summer,code,RdSAP
+Gas boilers (including LPG) 1998 or later,Regular non-condensing with automatic ignition ,74,64,101,'rd’
+Gas boilers (including LPG) 1998 or later,Regular condensing with automatic ignition ,84,74,102,'rd’
+Gas boilers (including LPG) 1998 or later,Non-condensing combi with automatic ignition,74,65,103,'rd’
+Gas boilers (including LPG) 1998 or later,Condensing combi with automatic ignition ,84,75,104,'rd’
+Gas boilers (including LPG) 1998 or later,Regular non-condensing with permanent pilot light ,70,60,105,'rd’
+Gas boilers (including LPG) 1998 or later,Regular condensing with permanent pilot light ,80,70,106,
+Gas boilers (including LPG) 1998 or later,Non-condensing combi with permanent pilot light ,70,61,107,'rd’
+Gas boilers (including LPG) 1998 or later,Condensing combi with permanent pilot light ,80,71,108,
+Gas boilers (including LPG) 1998 or later,Back boiler to radiators,66,56,109,'rd’
+"Gas boilers (including LPG) pre-1998, with fan-assisted flue","Regular, low thermal capacity",73,63,110,
+"Gas boilers (including LPG) pre-1998, with fan-assisted flue","Regular, high or unknown thermal capacity ",69,59,111,'rd’
+"Gas boilers (including LPG) pre-1998, with fan-assisted flue",Combi,71,62,112,'rd’
+"Gas boilers (including LPG) pre-1998, with fan-assisted flue",Condensing combi,84,75,113,'rd’
+"Gas boilers (including LPG) pre-1998, with fan-assisted flue","Regular, condensing",84,74,114,'rd’
+"Gas boilers (including LPG) pre-1998, with balanced or open flue","Regular, wall mounted",66,56,115,'rd’
+"Gas boilers (including LPG) pre-1998, with balanced or open flue","Regular, floor mounted, pre 1979",56,46,116,'rd’
+"Gas boilers (including LPG) pre-1998, with balanced or open flue","Regular, floor mounted, 1979 to 1997",66,56,117,'rd’
+"Gas boilers (including LPG) pre-1998, with balanced or open flue",Combi,66,57,118,'rd’
+"Gas boilers (including LPG) pre-1998, with balanced or open flue",Back boiler to radiators,66,56,119,'rd’
+Combined Primary Storage Units (CPSU) (mains gas and LPG),With automatic ignition (non-condensing) ,74,72,120,'rd’
+Combined Primary Storage Units (CPSU) (mains gas and LPG),With automatic ignition (condensing) ,83,81,121,'rd’
+Combined Primary Storage Units (CPSU) (mains gas and LPG),With permanent pilot (non-condensing) ,70,68,122,
+Combined Primary Storage Units (CPSU) (mains gas and LPG),With permanent pilot (condensing),79,77,123,
+Oil boilers,Standard oil boiler pre-1985   ,66,54,124,
+Oil boilers,Standard oil boiler 1985 to 1997 ,71,59,125,'rd’
+Oil boilers,"Standard oil boiler, 1998 or later",80,68,126,'rd’
+Oil boilers,Condensing,84,72,127,'rd’
+Oil boilers,"Combi, pre-1998",71,62,128,'rd’
+Oil boilers,"Combi, 1998 or later",77,68,129,'rd’
+Oil boilers,Condensing combi,82,73,130,'rd’
+Oil boilers,"Oil room heater with boiler to radiators, pre 2000 ",66,54,131,'rd’
+Oil boilers,"Oil room heater with boiler to radiators, 2000 or later",71,59,132,'rd’
+Range cooker boilers (mains gas and LPG),Single burner with permanent pilot,47,37,133,'rd’
+Range cooker boilers (mains gas and LPG),Single burner with automatic ignition,51,41,134,'rd’
+Range cooker boilers (mains gas and LPG),Twin burner with permanent pilot (non-condensing) pre 1998,61,51,135,
+Range cooker boilers (mains gas and LPG),Twin burner with automatic ignition (non-condensing) pre 1998,66,56,136,'rd’
+Range cooker boilers (mains gas and LPG), Twin burner with permanent pilot (non-condensing) 1998 or later ,66,56,137,
+Range cooker boilers (mains gas and LPG),Twin burner with automatic ignition (non-condensing) 1998 or later,71,61,138,
+Range cooker boilers (oil),Single burner,61,49,139,'rd’
+Range cooker boilers (oil),Twin burner (non-condensing) pre 1998 ,71,59,140,'rd’
+Range cooker boilers (oil),Twin burner (non-condensing) 1998 or later,76,64,141,

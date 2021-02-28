@@ -1,0 +1,9 @@
+heat emitter,system,type,responsiveness
+Systems with radiators:,,1,1
+Underfloor heating (wet system):,pipes in insulated timber floor ,1,1
+Underfloor heating (wet system):,pipes in screed above insulation ,2,0.75
+Underfloor heating (wet system):,pipes in concrete slab,4,0.25
+Underfloor heating and radiators,pipes in insulated timber floor ,1,1
+Underfloor heating and radiators,pipes in screed above insulation ,2,0.75
+Underfloor heating and radiators,pipes in concrete slab,4,0.25
+Warm air via fan coil units,,1,1

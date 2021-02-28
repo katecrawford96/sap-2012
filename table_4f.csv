@@ -1,0 +1,8 @@
+equipment,system,kWh_year
+Heating system:,"Central heating pump (supplying hot water to radiators or underfloor system), 2013 or later",30
+,"Central heating pump (supplying hot water to radiators or underfloor system), 2012 or earlier or unknown",120
+,Oil boiler c) pump (supplying oil to boiler and flue fan) d) ,100
+,Gas boiler flue fan (if fan assisted flue),45
+,Gas-fired heat pump flue fan (if fan assisted flue) ,45
+,Gas-fired warm air system flue fan (if fan assisted flue),45
+,Warm air heating system fans e),SFP * 0.4 *

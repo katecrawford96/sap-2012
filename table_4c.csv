@@ -1,0 +1,24 @@
+heating system,type,description,space,space_oil_lpg,dhw
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to lower temperature of distribution system:,Condensing boiler with load and/or weather compensation a) ,db,db,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to lower temperature of distribution system:,Condensing boiler with flow temperature limited to 45°C a) b) ,2.4,1.6,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to lower temperature of distribution system:,Condensing boiler with flow temperature limited to 35°C a) b) ,3,2,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to lower temperature of distribution system:,Condensing boiler with thermal store a),0,0,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to control system,No thermostatic control of room temperature regular boiler,-5,,-5
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to control system,No thermostatic control of room temperature combi,-5,,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to control system,"No thermostatic control of room temperature CPSU, or regular boiler with integral thermal store or hot-water-only thermal store",-5,,0
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to control system,No boiler interlock – regular boiler (including back boiler),-5,,-5
+Gas or oil boiler systems: (not micro-CHP),Efficiency adjustment due to control system,No boiler interlock – combi,-5,,0
+Community heating systems:,Factor for controls and charging method,,,,
+Community heating systems:,"2301 Flat rate charging d), no thermostatic control of room temperature",,1.1,,1.05
+Community heating systems:,"2302 Flat rate charging, programmer, no room thermostat",,1.1,,1.05
+Community heating systems:,"2303 Flat rate charging, room thermostat only",,1.05,,1.05
+Community heating systems:,"2304 Flat rate charging, programmer and room thermostat",,1.05,,1.05
+Community heating systems:,"2307 Flat rate charging, TRVs",,1.05,,1.05
+Community heating systems:,"2305 Flat rate charging, programmer and TRVs",,1.05,,1.05
+Community heating systems:,"2311 Flat rate charging*, programmer and at least two room thermostats",,1.05,,1
+Community heating systems:,"2308 Charging system linked to use of community heating, room thermostat only",,1.05,,1
+Community heating systems:,"2309 Charging system linked to use of community heating, programmer and room thermostat",,1,,1
+Community heating systems:,"2310 Charging system linked to use of community heating, TRVs",,1,,1
+Community heating systems:,"2306 Charging system linked to use of community heating, programmer and TRVs",,1,,1
+Community heating systems:,"2312 Charging system linked to use of community heating, programmer and at least two room thermostats",,,,1.05
+Community heating systems:,"Community DHW-only system, flat rate charging Community DHW-only system, charging linked to use",,,,1

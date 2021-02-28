@@ -1,0 +1,55 @@
+Group,type,system,control,temperature_adjustment],Delayed start thermostat,Enhanced load compensator or weather compensator,Temperature adjustment for CPSU,reference,code,rdSAP
+0,no heating system present,,2,0.3,-0.15,0,-0.1,'na’,2699,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),No time or thermostatic control of room temperature,1,0.6,-0.15,0,-0.1,table_4c,2101,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),"Programmer, no room thermostat",1,0.6,-0.15,0,-0.1,table_4c,2102,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),Room thermostat only,1,0,-0.15,0,-0.1,table_4c,2103,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),Programmer and room thermostat,1,0,-0.15,0,-0.1,table_4c,2104,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),Programmer and at least two room thermostats,2,0,-0.15,0,-0.1,table_4c,2105,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),"Programmer, room thermostat and TRVs",2,0,-0.15,0,-0.1,table_4c,2106,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),TRVs and bypass,2,0,-0.15,0,-0.1,table_4c,2111,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),"Programmer, TRVs and bypass",2,0,-0.15,0,-0.1,table_4c,2107,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),"Programmer, TRVs and flow switch",2,0,-0.15,0,-0.1,table_4c,2108,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),"Programmer, TRVs and boiler energy manager",2,0,-0.15,0,-0.1,table_4c,2109,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),Time and temperature zone control by suitable arrangement of plumbing and electrical services *,3,0,-0.15,0,-0.1,table_4c,2110,'rd’
+1,boiler systems with radiators or underfloor heating (and micro-CHP),Time and temperature zone control by device in database *,3,0,-0.15,0,-0.1,table_4c,2112,'rd’
+2,heat pumps with radiators or underfloor heating,No time or thermostatic control of room temperature,1,0.3,,,-0.1,'na’,2201,'rd’
+2,heat pumps with radiators or underfloor heating,"Programmer, no room thermostat",1,0.3,,,-0.1,'na’,2202,'rd’
+2,heat pumps with radiators or underfloor heating,Room thermostat only,1,0,,,-0.1,'na’,2203,'rd’
+2, heat pumps with radiators or underfloor heating,Programmer and room thermostat,1,0,,,-0.1,'na’,2204,'rd’
+2, heat pumps with radiators or underfloor heating,Programmer and at least two room thermostats,2,0,,,-0.1,'na’,2204,'rd’
+2, heat pumps with radiators or underfloor heating,"Programmer, TRVs and bypass",2,0,,,-0.1,'na’,2206,'rd’
+2, heat pumps with radiators or underfloor heating,Time and temperature zone control by suitable arrangement of plumbing and electrical services *,3,0,,,-0.1,'na’,2207,'rd’
+2, heat pumps with radiators or underfloor heating,Time and temperature zone control by device in database *,3,0,,,-0.1,'na’,2208,'rd’
+3,community heating schemes,"Flat rate charging*, no thermostatic control of room temperature",1,0.3,,,,table_4c,2301,'rd’
+3,community heating schemes,"Flat rate charging*, programmer, no room thermostat ",1,0.3,,,,table_4c,2302,'rd’
+3,community heating schemes,"Flat rate charging*, room thermostat only",1,0,,,,table_4c,2303,'rd’
+3,community heating schemes,"Flat rate charging*, programmer and room thermostat ",1,0,,,,table_4c,2304,'rd’
+3,community heating schemes,"Flat rate charging*, TRVs",2,0,,,,table_4c,2307,'rd’
+3,community heating schemes,"Flat rate charging*, programmer and TRVs",2,0,,,,table_4c,2305,'rd’
+3,community heating schemes,"Flat rate charging*, programmer and at least two room thermostats",2,0,,,,table_4c,2311,'rd’
+3,community heating schemes,"Charging system linked to use of community heating, room thermostat only",2,0,,,,table_4c,2308,'rd’
+3,community heating schemes,"Charging system linked to use of community heating, programmer and room thermostat",2,0,,,,table_4c,2309,'rd’
+3,community heating schemes,"Charging system linked to use of community heating, TRVs",3,0,,,,table_4c,2310,'rd’
+3,community heating schemes,"Charging system linked to use of community heating, programmer and TRVs",3,0,,,,table_4c,2306,'rd’
+3,community heating schemes,"Charging system linked to use of community heating, programmer and at least two room thermostats",3,0,,,,table_4c,2312,'rd’
+4,electric storage systems ,Manual charge control,3,0.7,,,,'na’,2401,'rd’
+4,electric storage systems ,Automatic charge control,3,0.4,,,,'na’,2402,'rd’
+4,electric storage systems ,Celect-type controls,3,0.4,,,,'na’,2403,
+4,electric storage systems ,Controls for high heat retention storage heaters ,3,0,,,,'na’,2404,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution),No time or thermostatic control of room temperature,1,0.3,,,,'na’,2501,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution)," Programmer, no room thermostat",1,0.3,,,,'na’,2502,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution),Room thermostat only,1,0,,,,'na’,2503,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution),Programmer and room thermostat,1,0,,,,'na’,2504,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution),Programmer and at least two room thermostats,2,0,,,,'na’,2505,'rd’
+5,WARM AIR SYSTEMS (including heat pumps with warm air distribution),Time and temperature zone control,3,0,,,,'na’,2506,'rd’
+6,Room Heater Systems,No thermostatic control of room temperature,2,0.3,,,,'na’,2601,'rd’
+6,Room Heater Systems,Appliance thermostats,3,0,,,,'na’,2602,'rd’
+6,Room Heater Systems,Programmer and appliance thermostats ,3,0,,,,'na’,2603,'rd’
+6,Room Heater Systems,Room thermostats only,3,0,,,,'na’,2604,'rd’
+6,Room Heater Systems,Programmer and room thermostats,3,0,,,,'na’,2605,'rd’
+7,other systems,No time or thermostatic control of room temperature,1,0.3,,,,'na’,2701,'rd’
+7,other systems," Programmer, no room thermostat",1,0.3,,,,'na’,2702,'rd’
+7,other systems,Room thermostat only,1,0,,,,'na’,2703,'rd’
+7,other systems,Programmer and room thermostat,1,0,,,,'na’,2704,'rd’
+7,other systems,Programmer and at least two room thermostats,2,0,,,,'na’,2705,'rd’
+7,other systems,Time and temperature zone control,3,0,,,,'na’,2706,'rd’
